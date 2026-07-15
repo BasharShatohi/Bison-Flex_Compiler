@@ -1,0 +1,112 @@
+flex test4.l
+
+bison -d -t -v p.y
+
+gcc lex.yy.c p.tab.c
+
+.\a.exe .\input.txt
+
+
+
+if index=5:
+    if think:
+        print("HIIIIIII SECOND IF");
+    else:
+        print("HIIIIIII SECOND ELSE");
+    print("hiii");
+    print(5+6+6+9+8+7);
+elif oop : 
+    print("hello elif");
+else :
+    print("hello else");
+print("hello every body");
+
+
+///////////////////////////////////
+
+print("hello every body",5+9);
+while index=8 :
+    print("HELLLLLOOOOO WHILE IS HERE ");
+    continue;
+    break;
+
+///////////////////////////////////
+
+for index in range (1,5):
+    print("hi");
+    print("lololo");
+    print(333);
+/////////////////////////////////
+
+index = 10
+
+if index > 10:
+    print("index is greater than 10");
+elif index < 10:
+    print("index is less than 10");
+else:
+    print("index is equal to 10");
+
+/////////////////////////////
+
+numbers = [1,2,3,4,5]
+for number in numbers:
+    print(number);
+
+////////////////////////////////
+
+my_variable as into = 42
+
+////////////////////////////////
+
+assert lolo > 0;
+
+///////////////////////////////
+
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    return sum;
+
+result = add_numbers(5, 10)
+print("النتيجة هي:", result);
+
+/////////////////////////////////////////
+def is_even(number):
+    if number % 2 == 0:
+        return True;
+    else:
+        return False;
+
+///////////////////////////////
+
+# تعليق: هذا هو مثال بسيط للكود في لغة بايثون
+
+# قائمة من الأرقام
+numbers = [1, 2, 3, 4, 5]
+
+# حلقة لطباعة كل عنصر في القائمة
+for num in numbers:
+    print(num);
+
+# التحقق مما إذا كانت الأرقام في القائمة أكبر من 3 وطباعة النتيجة
+for num in numbers:
+    if num > 3:
+        print(num, "greater than 3");
+    else:
+        print(num, "smaller than or equal");
+
+///////////////////////////////////////
+
+min = 5 
+max = 10
+result = min + max
+print(result);
+
+class hosam :
+    print("lololo");
+    min=5
+    max=6
+    print(min+max);
+
+///////////////////////////////
+print, if, elif, else,while,for

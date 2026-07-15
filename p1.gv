@@ -1,0 +1,9 @@
+digraph G {
+	statements3 [label="stats3"]
+  statements3 -> statement2;
+	statement2 [label="statement2"]
+  statement2 -> simple_stat1;
+	simple_stat1 [label="simple_stat1"]
+  simple_stat1 -> print0;
+	print0 [label="print0"]
+}

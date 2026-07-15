@@ -1,0 +1,7 @@
+def getnext(x):
+    if x:
+        z=x+1
+        yield z
+        yield 100
+    else:
+        return x*10

@@ -1,0 +1,11 @@
+main()
+{
+    char str[50]="Hello to Compiler course";
+    int x,y;
+    if (x > y)
+        printf("x is greater");
+    else
+        y=10;/* this is just a 
+        comment */
+
+}
